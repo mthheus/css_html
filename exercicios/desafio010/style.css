@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor01: #D8C3E0; 
+    --cor02: rgb(143, 95, 145);
+    --cor03: #8451A6;
+    --cor04: #4F3673;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor04);
+}
+
+header {
+    padding-top: 45px;
+    box-shadow: 1px px 20px rgba(0, 0, 0, 0.623);
+    height: 90px;
+    text-align: center;
+    color: white;
+    background-image:linear-gradient(#8451A6, #3d2a57 );
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.616);
+}
+header > h1 {
+    
+    margin-bottom: 15px;
+}
+nav {
+    padding: 9px;
+    background-color: #3d2a57;
+    text-align: left;
+}
+nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.25s;
+}
+nav > a:hover {
+
+    border-radius: 5px;
+    color: var(--cor04);
+    background-color: var(--cor02);
+}
+main {
+    min-width: 320px;
+    max-width: 1000px;
+    box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.589);
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #e7e7e7;
+}
+main p {
+    line-height: 1.7em;
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+}
+main strong a {
+    padding: 2px;
+    background-color: #ccace2;
+    text-decoration: none;
+    color: var(--cor04)
+}
+main strong a:hover {
+    text-decoration: underline;
+}
+h2#história {
+    color: #3d2a57;
+    padding: 1px 10px ;
+    background-image:linear-gradient(90deg,#ccace2, rgba(0, 0, 0, 0)95%);
+    text-align: left;
+}
+picture {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+}
+aside {
+    margin: 20px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.183);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ccace2;
+}
+aside > h3 {
+    border-radius: 8px 8px 0px 0px;
+    margin: -10px -10px 0 -10px;
+    padding: 10px;
+    color: white;
+    background-color: #3d2a57;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: #8451A6;
+}
+footer > strong:hover {
+    
+    text-decoration: underline;
+}
+
+    

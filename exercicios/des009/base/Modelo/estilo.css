@@ -1,0 +1,27 @@
+body { 
+    align-items: center;
+    background: purple;
+    font: normal 15pt Arial;
+    color: white
+  
+}
+header {
+    text-align: center;
+}
+section {
+   
+    background: white; 
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    color: black;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.322);
+}
+footer {
+    text-align: center;
+    font-style: italic;
+} 
+select#tabela {
+    width: 250px;
+}
